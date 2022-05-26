@@ -1,0 +1,41 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left: 3px solid rgb(221, 221, 221);
+    font-style: italic;
+    padding-left: 15px;
+    line-height: 2.5;
+}
+
+blockquote p:nth-child(3) {
+    text-align: right;
+}
+
+table {
+    border: 1px solid rgb(221, 221, 221);
+    width: 100%;
+}
+
+tr:nth-child(odd) {
+    background: rgb(241, 241, 241)
+}
+
+th {
+    background-color: darkgray;
+    text-align: left;
+}
+
+td, th {
+    width: 144px;
+    height: 32px;
+    border-color: darkgrey;
+    padding-left: 5px;
+}
