@@ -1,0 +1,45 @@
+html {
+    font-family: Helvetica, sans-serif;
+
+}
+
+h1, nav, a {
+    margin: 30px 30px 30px 0;
+}
+
+header h1 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    color:#46b94a;
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+main h1 {
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
