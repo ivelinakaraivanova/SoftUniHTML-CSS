@@ -1,0 +1,90 @@
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    margin: 20px 80px 100px 80px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page main {
+    flex-basis: 80%;
+    margin-right: 40px;
+}
+
+.page aside {
+    flex-grow: 25%;
+}
+
+.quote {
+    display: flex;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 12px 3px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    border: 3px solid black;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: grey;
+    border-left: 4px solid lightgrey;
+    padding-left: 30px;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+blockquote p {
+    text-align: right;
+}
+
+h2, h3 {
+    color: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+li {
+    list-style: square;
+}
+
+.header-title {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    flex-grow: 1;
+}
+
+.img-first {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.img-second {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}

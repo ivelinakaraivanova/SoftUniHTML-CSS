@@ -1,0 +1,52 @@
+body {
+    background-color: #eee;
+    padding: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    height: 50vh;
+}
+
+
+header, main, aside, footer {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    color:#000;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    box-shadow: 0px 0px 8px 0px #756975;
+}
+
+header, footer {
+    flex-basis: 100%;
+}
+
+main {
+    flex-grow: 8;
+    flex-shrink: 1;
+    flex-basis: 40rem;
+    /* flex: 8 1 40rem; */
+    /* flex-grow: 3; */
+}
+
+aside {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 20rem;
+    /* flex: 2 1 20rem; */
+    /* flex-grow: 1; */
+}
+
+header {
+    height: 5%;
+}
+
+footer {
+    height: 2%;
+}
+
+main, aside {
+    height: 60%
+}
