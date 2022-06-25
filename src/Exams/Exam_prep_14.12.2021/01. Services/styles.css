@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.services-header {
+    text-align: center;
+}
+
+.services-header-title span {
+    color: #9AC640;
+}
+
+.services-header-title {
+    margin-bottom: 10px;
+}
+
+.services-header-subtitle {
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.services {
+    display: flex;
+    margin: 40px 150px ;
+    justify-content: center;
+}
+
+.service-card {
+    margin: 10px;
+    background-color: #F7F7F6;
+    width: 27%;
+
+}
+
+.service-img img{
+    width: 100%;
+}
+
+.service-content {
+    margin: 30px 20px 20px 20px;
+    font-size: 10px;
+}
+
+.service-content-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.service-content-text {
+    color: #6A6864;
+    line-height: 2;
+}
+
+.service-btn {
+    background-color: #9DC743;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-size: 9px;
+    font-weight: bold;
+
+}
+
+.service-btn a {
+    color: white;
+    text-decoration: none;
+}
