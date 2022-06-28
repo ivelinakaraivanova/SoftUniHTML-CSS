@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import 'https://use.fontawesome.com/releases/v6.1.1/css/all.css';
+
+body {
+    margin: 0;
+    font-family: PT Sans, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(0deg, rgba(200,200, 200,0.2),
+    rgba(0,0,0,0.7)),
+    url(./image/computer-main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 80vh;
+    text-shadow: 3px 2px rgb(36, 36, 36);
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 200px;
+    color: white;
+    
+    font-size: 30px;
+}
+
+.idea {
+    text-align: center;
+    color: white;
+}
+
+.idea-title {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.idea-content {
+    font-size: 36px;
+    padding: 0px 550px 50px 550px;
+    margin-bottom: 45px;
+}
+
+.btn-buy {
+    background-color: #00D48C;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 13px 25px;
+    margin-bottom: 70px;
+}
+
+.btn-buy:hover {
+    background-color: transparent;
+    border: 3px solid white;
+}
+
+.btn-action {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.btn-action a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 2px rgb(36, 36, 36);
+}
+
+.btn-action i {
+    color: white;
+    background-color: black;
+}
+
+.what {
+    display: flex;
+    justify-content: center;
+}
+
+.what-img {
+    width: 50%;
+}
+
+.what-img img {
+    width: 100%;
+}
+
+.what-content {
+    width: 50%;
+    padding: 50px 70px;
+
+}
+
+.what-content-title {
+    margin-top: 0;
+    font-size: 45px;
+}
+
+.what-content-text {
+    font-weight: 400;
+    font-size: 30px;
+    padding-right: 170px;
+}
+
+.what-list {
+    line-height: 1.9;
+    font-size: 24px;
+    color: #5A6764;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 25px;
+}
+
+.what-list-item i{
+    margin-right: 25px;
+    color: #00D48C;
+    background-color: white;
+}
+
+.benefits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.benefit {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #00D287;
+}
+
+.benefit img {
+    width: 50%;
+}
+
+.what-content-title-second{
+    margin-top: 0;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #9DF3DD;
+    padding:20px 40px;
+    margin-top: -25px;
+}
+
+footer h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.questions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.question-card {
+    width: 30%;
+    text-align: center;
+    font-size: 24px;
+    padding: 5px 80px;
+}
+
+.question-card-title {
+    margin-bottom: 0px;
+}
+
+.question-card-text {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.foot {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}

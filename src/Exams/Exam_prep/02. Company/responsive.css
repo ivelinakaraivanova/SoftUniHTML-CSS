@@ -1,0 +1,83 @@
+@media screen and (max-width: 600px) {
+    .main-nav {
+        display: none;
+    }
+
+    .wrapper {
+        width: 890px;
+        margin: 0px 20px;
+        text-align: center;
+    }
+
+    .hero-head h1 {
+        width: 55%;
+        font-size: 40px;
+        line-height: 85px;
+    }
+
+    .hero-head {
+        background-color: black;
+        background-image: none;
+    }
+
+
+    .hero-head .goal {
+        line-height: 38px;
+    }
+
+    .content {
+        padding: 40px 15px;
+    }
+
+    .content .wrapper {
+        width: auto;
+    }
+
+    .content-wrap {
+        margin: 10px 0 0;
+    }
+
+    .content-wrap h3 {
+        margin-top: unset;
+    }
+
+    .content-wrap.two-col {
+        flex-wrap: wrap;
+    }
+
+    .content-wrap.two-col .col {
+    flex-basis: 100%;
+    }
+
+    .button {
+    padding: 10px 180px;
+    }
+
+    .sponsors h3 {
+        margin-top: unset;
+    }
+
+    .sponsors .module-text {
+        margin-bottom: 30px;
+    }
+
+    .main-foot {
+        text-align: center;
+    }
+
+    .main-foot .wrapper {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        margin-left: unset;
+    }
+
+    .main-foot address, .main-foot nav{
+        margin: 0;
+    }
+
+      .main-foot .bottom .copyright{
+        float: none;
+    }
+}

@@ -1,0 +1,60 @@
+@media screen and (max-width: 600px) {
+    main {
+        width: 100%; /*95%;*/
+    }
+    
+    .left-to-right:first-child {
+        height: 500px; /*750px;*/
+        padding: 10%; /*75px;*/
+    }
+    
+    main .left-to-right article {
+        width: 370px; /*450px;*/
+        height: 370px; /*450px;*/
+        padding: 40px 40px 40px 40px; /*75px 81px 75px 90px;*/
+        border-radius: 20%; /*50%;*/
+    }
+    
+    header h1 {
+        font-size: 2rem;/*3rem;*/
+    }
+    
+    button {
+        display: none; /**/
+    }
+    
+    main section:nth-child(2),
+    main section:nth-child(4) {
+        flex-direction: column; /**/
+        margin: 20px 40px; /*20px auto;*/
+    }
+
+    main section:nth-child(2) article,
+    main section:nth-child(4) article {
+        align-items: center; /**/
+    }
+
+    main section:nth-child(2) article img,
+    main section:nth-child(4) article img {
+    width: 120% /*90%;*/
+    }
+
+    
+    main section:nth-child(2) button,
+    main section:nth-child(4) button {
+        display: none; /**/
+    }
+    
+    form {
+        width: 100%; /*889px*/
+    }
+    
+    section form label input,
+    section form textarea {
+        width: 90%; /*40%;*/
+    }
+    
+    form input[type="submit"] {
+        margin: 30px 160px; /*30px auto;*/
+    }
+}
